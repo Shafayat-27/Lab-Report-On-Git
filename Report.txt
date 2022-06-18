@@ -1,0 +1,43 @@
+Experiment Date: 05.06.2022
+Experiment No: 03
+Experiment Name: Study of Git, Github, Git Commands & their usages.
+Theory:
+Git is a version control system. On the other hand, Github is designed as a GIT repository hosting service. Gitlab & Bitbucket are two alternatives of Github.
+Version control systems are software tools that help software teams manage changes to source code over time. As development environments have accelerated, version control systems help software teams work faster and smarter. GIT provides the best performance when it comes to version control systems. 
+Git is a distributed version control system. Git has a remote repository which is stored on a server and a local repository which is stored in the computer of each developer. This means that the code is not just stored on a central server, but the full copy of the code is present in all the developers’ computers as well. Because every node has a local copy, almost all the operations on Git are local (Exceptions being Pull and Push command). Which means that you don't have to be connected to the remote repository all the time to do your work.
+Repositories in Git contain a collection of files of various different versions of a project. These files are imported from the repository into the local server of the user for further updations and modifications in the content of the file.
+The local repository is a Git repository that is stored on your computer & a remote repository is a Git repository that is stored on some remote computer.
+
+Software Used: 
+1.	Git version 2.27.0.windows.1
+2.	VS Code
+3.	Github
+
+
+
+
+
+
+Git Commands: 
+1.	Git Init: This command is used to create a new blank repository. It is used to make an existing project a Git project.
+2.	Git Add: This command is used to add file contents to the staging area. This command updates the current content of the working tree to the staging area.
+3.	Git Commit: This command is used to record the changes in the repositories. It is the next command after the git add.  
+4.	Git Clone: In Git, cloning is the act of making a copy of any target repository. The target repository can be remote or local. You can clone your repository from the remote repository to create a local copy on your system. 
+5.	Git Stash: This command enables you to switch branches without committing the current branch.
+6.	Git Ignore: In Git, the term "ignore" is used to specify intentionally untracked files that Git should ignore. It doesn't affect the Files that already tracked by Git. Sometimes you don't want to send the files to Git service like GitHub. We can specify files in Git to ignore.
+7.	Git Fork: A fork is a rough copy of repository. Forking a repository allows you to freely test and debug with changes without effecting the original project.
+8.	 Git Index: It is a staging area between the working directory and repository. It is used to build up a set of changes that you want to commit together. 
+9.	Git Head: The head points out the last commit in the current checkout branch. It is like a pointer to any reference. The head can be understood as the “current branch”. When you switch branches with ‘checkout’, the head is transferred to the new branch. 
+10.	 Git Origin Master: The term "git origin master" is used in the context of a remote repository. It is used to deal with the remote repository. The term origin comes from where repository original situated and master stands for the main branch.
+11.	 Git Remote: In Git, the term remote is concerned with the remote repository. It is a shared repository that all team members use to exchange their changes. A remote repository is stored on a code hosting service like an internal server, GitHub, Subversion, and more. In the case of a local repository, a remote typically does not provide a file tree of the project's current state; as an alternative, it only consists of the .git versioning data.
+12.	 Git Checkout: In Git, the term checkout is used for the act of switching between different versions of a target entity. The git checkout command is used to switch between branches in a repository.
+13.	 Git Log: The git log command shows a list of all the commits made to a repository. We can see the hash of each Git commit, the message associated with each commit, and more metadata. This command is useful for displaying the history of a repository.
+14.	 Git Pull: Git pull is a Git command used to update the local version of a repository from a remote.
+15.	 Git Push: The git push command is used to upload local repository content to a remote repository. Pushing is how we transfer commits from your local repository to a remote repository.
+16.	 Git Status: The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes.
+17.	 Git Diff: Git diff is a command-line utility. It's a multiuse Git command. When it is executed, it runs a diff function on Git data sources. These data sources can be files, branches, commits, and more. It is used to show changes between commits, commit, and working tree, etc.  
+
+
+
+
+
